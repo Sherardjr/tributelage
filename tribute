@@ -1,0 +1,63 @@
+<main id="main">
+		<div id="heading" class="center">
+		<h1 id="title" class="center">My parents</h1>
+	
+		</div>
+		<div id="img-div">
+			<img class="center" id=image src="https://images-na.ssl-images-amazon.com/images/I/61De6r9JAEL._AC_SX522_.jpg">
+			<div class="center">
+			<div id="img-caption" class="font">Tribute page</div>
+			</div>
+		</div>
+
+		<div id="tribute-info" class="center">
+			<h2 class="font">Here is a tribute to them.</h2>
+			
+				<p> Throughout my whole life my parents have supported me and backed me up everytime I needed it. Throughout my almost 15 years of life they have never given up on me regardless of how many times I mess up, and that is a debt I can never repay. Whatever I needed was provided, and so was everything I wanted for that matter.</p>
+				
+			<h3 class="font">To see how you can support your children even in school
+				<a href="https://www.familylives.org.uk/advice/primary/learning-school/supporting-your-child-at-school/" id="tribute-link" target="_blank">
+				Check out this support page</a>
+			</h3>
+		</div>
+
+
+
+
+
+<style>
+#img-div {
+                     display:
+   block;   
+                    position: absolute;
+                    justify-content: center;    
+                }
+                figure {
+                    justify-content: center;
+                }
+                #image {
+                   width: 100%;
+                   max-width: 100%;
+                  height: auto;
+                    justify-self: center;
+                }
+                #img-caption {
+                    position: relative;
+                    top: 500px;
+                    left: 200px;
+                    color: black;
+                }
+                #tribute-info {
+                    position: relative;
+                    top: 500px;
+                    left: 50px;
+                }
+                a {
+                    position: relative;
+                }
+
+                img {
+display: block;
+                }
+              
+               
